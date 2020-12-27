@@ -1,0 +1,50 @@
+  html{
+  text-align: center;
+  background: #282C34;
+  color : #F0F0F0;
+}
+body.eror{
+  color : red;
+  font-size: 20px;
+}
+
+h1:hover{
+  -moz-transform: rotate(15deg); /* Для Firefox */
+  -ms-transform: rotate(15deg); /* Для IE */
+  -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(15deg); /* Для Opera */
+  transform: rotate(15deg)
+}
+
+  .pole{
+    background: #F0F0F0;
+  }
+
+  .text{
+    font-weight: bolder;
+  }
+
+  .main{
+    font-size: 20px;
+    color: #FF9900;
+  }
+  hr{
+    border-width: 2px;
+    border-color : #F0F0F0;
+    padding: 2px;
+    background: #FF9900 ;
+  }
+  hr:hover{
+    border-width: 2px;
+    border-color : #F0F0F0;
+    padding: 2px;
+    background: red ;
+  }
+
+  button{
+  border-radius: 8px;
+}
+input{
+  border-radius: 3px;
+  border-width: medium;
+}
